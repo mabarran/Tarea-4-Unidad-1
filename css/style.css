@@ -1,0 +1,40 @@
+body{
+    box-sizing: border-box;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+    margin: 20px;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    
+}
+
+label {
+    width: 200px;
+
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+p,
+label {
+    font-family: tahoma;
+}
+
+input[type=email] {
+    background-color: #eee;
+}
